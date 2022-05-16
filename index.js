@@ -133,18 +133,11 @@ function update() {
     }
     if (e.key == 68 || e.key == 70 || e.key == 74 || e.key == 75) {
       ctx.clearRect(e.x, e.y, e.w, e.h + 1);
-      scorePlus()
+      score += 1
     }
     scoreD.innerHTML = score
   });
 
-  function scorePlus(){
-    scoreChange()
-  }
-  
-  function scoreChange(){
-    score += 1
-  }
   hitBottom();
   
   drawKey(0, 510);

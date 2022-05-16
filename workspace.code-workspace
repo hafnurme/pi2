@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "..\\canvas-crash-course-code"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "p1"
+	}
+}

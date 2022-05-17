@@ -9,13 +9,27 @@
 <body>
     
     <div class="box">
-        <button id="start" class="button">START</button>
+        <div class="instruction-box">
+            <h1>Instruction</h1>
+            <p>Press key <kbd>D</kbd> , <kbd>F</kbd> , <kbd>J</kbd> or <kbd>K</kbd> when the tiles hit the border.
+            </p>
+        </div>
     </div>
     <canvas id="canvas" width="300" height="600"></canvas>
     <div class="box">
-        <h1>Score : <span id="score"></span></h1>
-    </div>
+        <div class="score-group">
+            <div><span class="score">Time: </span><span id="time">0:00</span></div>
+            <div><span class="score" >Score: </span><span id="score">0</span>%</div>
+        </div>
+        <div class="buttonBox">
+            <button id="start" class="button">START</button>
+            <button id="stop" class="button">STOP</button>
+        </div>
+        <div class="speedBox">
+            <p>Speed : </p>
+            <p><button id="smin">-</button> <span id="speed">0</span> <button id="splus">+</button></p>
+        </div>
 
-    <script src="index.js"></script>
+    <script src="index2.js"></script>
 </body>
 </html>

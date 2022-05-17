@@ -1,3 +1,4 @@
+console.log(600 % 60)
 const canvas = document.getElementById("canvas");
 const ctx = canvas.getContext("2d");
 const myTiles = [];
@@ -5,6 +6,7 @@ const startButton = document.getElementById("start");
 const pauseButton = document.getElementById("pause");
 let live = false;
 let score = 0;
+
 
 function drawKey(x, y) {
   let key = {
